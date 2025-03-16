@@ -4,9 +4,9 @@ import { ArrowRight, ChevronRight } from 'lucide-react'
 import Image from 'next/image'
 import { TextEffect } from '@/components/motion-primitives/text-effect'
 import { AnimatedGroup } from '@/components/motion-primitives/animated-group'
-import HeroImage from '@/public/hero-bg-lg.webp'
 import { GooglePlayButton } from './google-play-button'
 import { AppStoreButton } from './app-store-button'
+import HeroImage from '@/public/hero-bg-lg.webp'
 
 const transitionVariants = {
   item: {
@@ -47,7 +47,9 @@ export function HeroSection() {
                 <Link
                   href="#link"
                   className="hover:bg-background bg-muted group mx-auto flex w-fit items-center gap-4 rounded-full border p-1 pl-4 shadow-md shadow-zinc-950/5 transition-colors duration-300">
-                  <span className="text-foreground text-sm">Check our blog</span>
+                  <span className="text-foreground text-sm">
+                    Check our blog
+                  </span>
                   <span className="dark:border-background block h-4 w-0.5 border-l bg-white"></span>
 
                   <div className="bg-background group-hover:bg-muted size-6 overflow-hidden rounded-full duration-500">
@@ -92,7 +94,7 @@ export function HeroSection() {
                   },
                   ...transitionVariants,
                 }}
-                className="mt-12 flex items-center justify-center gap-2 flex-row">
+                className="mt-12 flex flex-wrap items-center justify-center gap-2 flex-row">
                 <div
                   key={1}
                   className="bg-foreground/10 rounded-[calc(var(--radius-xl)+0.125rem)] border p-[0.0625rem">
@@ -119,7 +121,7 @@ export function HeroSection() {
               },
               ...transitionVariants,
             }}>
-            <div className="relative -mr-56 mt-8 overflow-hidden px-2 sm:mr-0 sm:mt-12 md:mt-20">
+            <div className="relative max-w-2xl mx-auto mt-8 overflow-hidden px-2 sm:mt-12 md:mt-20">
               <div
                 aria-hidden
                 className="bg-linear-to-b to-background absolute inset-0 z-10 from-transparent from-35%"

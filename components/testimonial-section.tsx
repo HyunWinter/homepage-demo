@@ -102,7 +102,7 @@ export function WallOfLoveSection() {
             <h2 className="text-balance text-4xl font-semibold lg:text-5xl">Loved by the Community</h2>
             <p className="text-body mt-6">Don't just take our word for it! Hear from our happy learners about their experiences with Lingovo and how it's helping them master a new language.</p>
           </div>
-          <div className="mt-8 grid gap-3 sm:grid-cols-2 md:mt-12 lg:grid-cols-3">
+          <div className="mt-8 grid gap-3 md:mt-12 lg:grid-cols-3">
             {testimonialChunks.map((chunk, chunkIndex) => (
               <div key={chunkIndex} className="space-y-3">
                 {chunk.map(({ name, role, quote, image }, index) => (

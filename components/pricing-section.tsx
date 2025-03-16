@@ -1,18 +1,18 @@
 import { Check } from 'lucide-react'
 
 const freePlan: string[] = [
-  'Two weeks free trial',
   '1 language of choice',
   '1,000 lessons',
+  'Up to 1 device',
 ]
 
 const proPlan: string[] = [
   'Everything in Free Plan',
-  'Access 14 languages',
-  'Unlock 10,000+ lessons',
-  'Single User Access',
-  '1 Custom Report Per Month',
-  'Monthly Product Updates',
+  '14 languages',
+  '10,000+ lessons',
+  'Up to 3 devices',
+  'Learn with YouTube feature',
+  'Custom Learning Report Per Month',
 ]
 
 export function PricingSection() {
@@ -32,7 +32,7 @@ export function PricingSection() {
           <div className="rounded-(--radius) flex flex-col justify-between space-y-8 border p-6 md:col-span-2 md:my-2 md:rounded-r-none md:border-r-0 lg:p-10">
             <div className="space-y-4">
               <div>
-                <h2 className="font-medium">Free!</h2>
+                <h2 className="font-medium">2 Weeks Free!</h2>
                 <span className="my-3 block text-2xl font-semibold">
                   $0 / mo
                 </span>

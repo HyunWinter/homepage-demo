@@ -4,7 +4,7 @@ import { ArrowRight, ChevronRight } from 'lucide-react'
 import Image from 'next/image'
 import { TextEffect } from '@/components/motion-primitives/text-effect'
 import { AnimatedGroup } from '@/components/motion-primitives/animated-group'
-import HeroImage from '@/public/hero-bg.webp'
+import HeroImage from '@/public/hero-bg-lg.webp'
 import { GooglePlayButton } from './google-play-button'
 import { AppStoreButton } from './app-store-button'
 

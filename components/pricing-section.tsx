@@ -34,7 +34,7 @@ export function PricingSection() {
             Pricing that Scales with You
           </h1>
           <p>
-            Select the plan that fits your needs and start your language learning journey with Lingovo. Flexible options designed to give you the best value and results.
+            Select the plan that fits your needs and start your language learning journey with product-name. Flexible options designed to give you the best value and results.
           </p>
         </div>
 

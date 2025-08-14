@@ -7,7 +7,7 @@ export function ContentSection() {
     <section id="solution" className="py-16 md:py-32">
       <div className="mx-auto max-w-5xl space-y-8 px-6 md:space-y-16">
         <h2 className="relative z-10 max-w-xl text-balance text-4xl font-semibold lg:text-5xl">
-          The Lingovo Method
+          The product-name Method
         </h2>
         <div className="grid gap-6 sm:grid-cols-2 md:gap-12 lg:gap-24">
           <div className="relative space-y-4">

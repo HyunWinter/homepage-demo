@@ -70,7 +70,7 @@ export function HeroSection() {
                 speedSegment={0.3}
                 as="h1"
                 className="mt-8 text-balance text-6xl md:text-7xl lg:mt-16 xl:text-[5.25rem]">
-                Learn your next Language with Lingovo
+                Learn your next Language with product-name
               </TextEffect>
               <TextEffect
                 per="line"
@@ -79,7 +79,7 @@ export function HeroSection() {
                 delay={0.5}
                 as="p"
                 className="mx-auto mt-8 max-w-2xl text-balance text-lg">
-                Discover a new way to learn 14 languages with Lingovo's unique cultural short stories and interactive lessons.
+                Discover a new way to learn 14 languages with product-name's unique cultural short stories and interactive lessons.
               </TextEffect>
 
               <AnimatedGroup

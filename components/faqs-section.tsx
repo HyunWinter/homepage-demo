@@ -13,24 +13,24 @@ export function FAQSection() {
 
           <div className="divide-y divide-dashed sm:mx-auto sm:max-w-lg lg:mx-0">
             <div className="pb-6">
-              <h3 className="font-medium">What is product-name?</h3>
-              <p className="text-muted-foreground mt-4">product-name is an innovative language learning app that uses unique cultural short stories to teach 14 different languages. It offers interactive lessons, vocabulary building tools, and premium audio to enhance your learning experience.</p>
+              <h3 className="font-medium">What is Worldpro?</h3>
+              <p className="text-muted-foreground mt-4">Worldpro is an innovative language learning app that uses unique cultural short stories to teach 14 different languages. It offers interactive lessons, vocabulary building tools, and premium audio to enhance your learning experience.</p>
             </div>
             <div className="py-6">
               <h3 className="font-medium">Is there a free trial?</h3>
-              <p className="text-muted-foreground mt-4">Yes! product-name offers a 7-day free trial of our premium features. You'll have full access to all 14 languages and 10,000+ lessons during this period.</p>
+              <p className="text-muted-foreground mt-4">Yes! Worldpro offers a 7-day free trial of our premium features. You'll have full access to all 14 languages and 10,000+ lessons during this period.</p>
             </div>
             <div className="py-6">
-              <h3 className="font-medium">Why use product-name over other options?</h3>
-              <p className="text-muted-foreground mt-4">product-name stands out with its focus on cultural immersion through short stories, adaptive learning for all levels, and a comprehensive approach that includes reading, listening, and vocabulary building. Our unique method helps you learn languages in context, making the process more engaging and effective.</p>
+              <h3 className="font-medium">Why use Worldpro over other options?</h3>
+              <p className="text-muted-foreground mt-4">Worldpro stands out with its focus on cultural immersion through short stories, adaptive learning for all levels, and a comprehensive approach that includes reading, listening, and vocabulary building. Our unique method helps you learn languages in context, making the process more engaging and effective.</p>
             </div>
             <div className="py-6">
-              <h3 className="font-medium">Is product-name available on both iOS and Android?</h3>
-              <p className="text-muted-foreground mt-4">Yes, product-name is available for both iOS and Android devices, allowing you to learn on your preferred platform.</p>
+              <h3 className="font-medium">Is Worldpro available on both iOS and Android?</h3>
+              <p className="text-muted-foreground mt-4">Yes, Worldpro is available for both iOS and Android devices, allowing you to learn on your preferred platform.</p>
             </div>
             <div className="py-6">
-              <h3 className="font-medium">How many languages can I learn with product-name?</h3>
-              <p className="text-muted-foreground my-4">product-name offers courses in 14 languages:</p>
+              <h3 className="font-medium">How many languages can I learn with Worldpro?</h3>
+              <p className="text-muted-foreground my-4">Worldpro offers courses in 14 languages:</p>
               <ul className="list-outside list-disc space-y-2 pl-4">
                 <li className="text-muted-foreground">English</li>
                 <li className="text-muted-foreground">Arabic</li>

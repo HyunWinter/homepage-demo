@@ -7,7 +7,7 @@ export function CallToActionSection() {
       <div className="mx-auto max-w-2xl px-6">
         <div className="text-center">
           <h2 className="text-balance text-4xl font-semibold lg:text-5xl">
-            Stay product-name-ed
+            Stay Worldpro-ed
           </h2>
           <p className="mt-4">
             Join our mailing list for the latest updates, tips, and exclusive offers. Be the first to know about new features and promotions!

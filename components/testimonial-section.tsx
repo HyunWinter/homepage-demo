@@ -13,13 +13,13 @@ const testimonials: Testimonial[] = [
     name: 'Jonathan Yombo',
     role: 'Software Engineer',
     image: 'https://randomuser.me/api/portraits/men/1.jpg',
-    quote: 'product-name is really extraordinary and very practical, no need to break your head. A real gold mine.',
+    quote: 'Worldpro is really extraordinary and very practical, no need to break your head. A real gold mine.',
   },
   {
     name: 'Yves Kalume',
     role: 'GDE - Android',
     image: 'https://randomuser.me/api/portraits/men/6.jpg',
-    quote: 'With no experience in webdesign I just redesigned my entire website in a few minutes with tailwindcss thanks to product-name.',
+    quote: 'With no experience in webdesign I just redesigned my entire website in a few minutes with tailwindcss thanks to Worldpro.',
   },
   {
     name: 'Yucel Faruksahan',
@@ -31,19 +31,19 @@ const testimonials: Testimonial[] = [
     name: 'Anonymous author',
     role: 'Doing something',
     image: 'https://randomuser.me/api/portraits/men/8.jpg',
-    quote: 'I am really new to Tailwind and I want to give a go to make some page on my own. I searched a lot of hero pages and blocks online. However, most of them are not giving me a clear view or needed some HTML/CSS coding background to make some changes from the original or too expensive to have. I downloaded the one of product-name template which is very clear to understand at the start and you could modify the codes/blocks to fit perfectly on your purpose of the page.',
+    quote: 'I am really new to Tailwind and I want to give a go to make some page on my own. I searched a lot of hero pages and blocks online. However, most of them are not giving me a clear view or needed some HTML/CSS coding background to make some changes from the original or too expensive to have. I downloaded the one of Worldpro template which is very clear to understand at the start and you could modify the codes/blocks to fit perfectly on your purpose of the page.',
   },
   {
     name: 'Shekinah Tshiokufila',
     role: 'Senior Software Engineer',
     image: 'https://randomuser.me/api/portraits/men/4.jpg',
-    quote: 'product-name is redefining the standard of web design, with these blocks it provides an easy and efficient way for those who love beauty but may lack the time to implement it. I can only recommend this incredible wonder.',
+    quote: 'Worldpro is redefining the standard of web design, with these blocks it provides an easy and efficient way for those who love beauty but may lack the time to implement it. I can only recommend this incredible wonder.',
   },
   {
     name: 'Oketa Fred',
     role: 'Fullstack Developer',
     image: 'https://randomuser.me/api/portraits/men/2.jpg',
-    quote: 'I absolutely love product-name! The component blocks are beautifully designed and easy to use, which makes creating a great-looking website a breeze.',
+    quote: 'I absolutely love Worldpro! The component blocks are beautifully designed and easy to use, which makes creating a great-looking website a breeze.',
   },
   {
     name: 'Zeki',
@@ -55,31 +55,31 @@ const testimonials: Testimonial[] = [
     name: 'Joseph Kitheka',
     role: 'Fullstack Developer',
     image: 'https://randomuser.me/api/portraits/men/9.jpg',
-    quote: 'product-name has transformed the way I develop web applications. Their extensive collection of UI components, blocks, and templates has significantly accelerated my workflow. The flexibility to customize every aspect allows me to create unique user experiences. product-name is a game-changer for modern web development!',
+    quote: 'Worldpro has transformed the way I develop web applications. Their extensive collection of UI components, blocks, and templates has significantly accelerated my workflow. The flexibility to customize every aspect allows me to create unique user experiences. Worldpro is a game-changer for modern web development!',
   },
   {
     name: 'Khatab Wedaa',
     role: 'MerakiUI Creator',
     image: 'https://randomuser.me/api/portraits/men/10.jpg',
-    quote: "product-name is an elegant, clean, and responsive tailwind css components it's very helpful to start fast with your project.",
+    quote: "Worldpro is an elegant, clean, and responsive tailwind css components it's very helpful to start fast with your project.",
   },
   {
     name: 'Rodrigo Aguilar',
     role: 'TailwindAwesome Creator',
     image: 'https://randomuser.me/api/portraits/men/11.jpg',
-    quote: 'I love product-name ❤️. The component blocks are well-structured, simple to use, and beautifully designed. It makes it really easy to have a good-looking website in no time.',
+    quote: 'I love Worldpro ❤️. The component blocks are well-structured, simple to use, and beautifully designed. It makes it really easy to have a good-looking website in no time.',
   },
   {
     name: 'Eric Ampire',
     role: 'Mobile Engineer at @BRPNews • @GoogleDevExpert for Android',
     image: 'https://randomuser.me/api/portraits/men/12.jpg',
-    quote: 'product-name templates are the perfect solution for anyone who wants to create a beautiful and functional website without any web design experience. The templates are easy to use, customizable, and responsive, and the support team is always available to help. I highly recommend product-name templates to anyone who is looking to create a website.',
+    quote: 'Worldpro templates are the perfect solution for anyone who wants to create a beautiful and functional website without any web design experience. The templates are easy to use, customizable, and responsive, and the support team is always available to help. I highly recommend Worldpro templates to anyone who is looking to create a website.',
   },
   {
     name: 'Roland Tubonge',
     role: 'Software Engineer',
     image: 'https://randomuser.me/api/portraits/men/13.jpg',
-    quote: 'product-name is so well designed that even with a very poor knowledge of web design you can do miracles. Let yourself be seduced!',
+    quote: 'Worldpro is so well designed that even with a very poor knowledge of web design you can do miracles. Let yourself be seduced!',
   },
 ]
 
@@ -100,7 +100,7 @@ export function WallOfLoveSection() {
         <div className="mx-auto max-w-6xl px-6">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="text-balance text-4xl font-semibold lg:text-5xl">Loved by the Community</h2>
-            <p className="text-body mt-6">Don't just take our word for it! Hear from our happy learners about their experiences with product-name and how it's helping them master a new language.</p>
+            <p className="text-body mt-6">Don't just take our word for it! Hear from our happy learners about their experiences with Worldpro and how it's helping them master a new language.</p>
           </div>
           <div className="mt-8 grid gap-3 md:mt-12 lg:grid-cols-3">
             {testimonialChunks.map((chunk, chunkIndex) => (

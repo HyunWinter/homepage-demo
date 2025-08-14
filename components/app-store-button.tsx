@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import { cn } from '@/lib/utils'
 import { Button } from './ui/button'
-import { Apple } from 'lucide-react';
 
 export const AppStoreButton = ({ className }: { className?: string }) => {
   return (
